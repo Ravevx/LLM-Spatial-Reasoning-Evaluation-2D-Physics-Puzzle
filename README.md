@@ -19,6 +19,7 @@ The environment is suitable for:
 
 ## 🎮 Game Mechanics
 ![Thinking](PhysicsPuzzle/Thinking.png)
+<img src="PhysicsPuzzle/Thinking.png" alt="Thinking" width="300"/>
 - **Objective:** Drop the blue ball so it hits the green target ball at the bottom.  
 - **Environment:** 600×600 pixel grid with obstacles of variable position and elasticity.  
 - **Dynamic Ball:** Blue, radius 18px, affected by gravity, elasticity 0.7, friction 0.2.  
