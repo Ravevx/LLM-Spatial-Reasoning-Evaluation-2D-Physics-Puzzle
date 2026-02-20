@@ -19,12 +19,12 @@ The environment is suitable for:
 
 ## 🎮 Game Mechanics
 <img src="PhysicsPuzzle/Thinking.png" alt="Thinking" width="300"/>
-- **Objective:** Drop the blue ball so it hits the green target ball at the bottom.  
-- **Environment:** 600×600 pixel grid with obstacles of variable position and elasticity.  
-- **Dynamic Ball:** Blue, radius 18px, affected by gravity, elasticity 0.7, friction 0.2.  
-- **Target Ball:** Green, static, radius 18px; a hit is registered if the distance ≤36px.  
-- **Obstacles:** Line segments, static, varying length and position per level; affect ball trajectory.  
-- **Levels:** 5 levels with increasing obstacle complexity; 2 games per level.  
+- Objective: Drop the blue ball so it hits the green target ball at the bottom.  
+- Environment: 600×600 pixel grid with obstacles of variable position and elasticity.  
+- Dynamic Ball: Blue, radius 18px, affected by gravity, elasticity 0.7, friction 0.2.  
+- Target Ball: Green, static, radius 18px; a hit is registered if the distance ≤36px.  
+- Obstacles: Line segments, static, varying length and position per level; affect ball trajectory.  
+- Levels: 5 levels with increasing obstacle complexity; 2 games per level.  
 
 ---
 ## Level Design
