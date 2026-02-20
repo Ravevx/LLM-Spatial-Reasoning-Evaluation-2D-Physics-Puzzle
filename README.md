@@ -33,6 +33,7 @@ The level progression system creates increasing difficulty through obstacle quan
 Level 1 contains a single obstacle, Level 2 introduces a second, and so on.
 
 ![Levels 1 to 5](Levels 1 to 5.png)
+
 ---
 📝 Experimental Framework
 
@@ -41,6 +42,7 @@ Text-only mode: Models receive obstacle coordinates and textual descriptions.
 Multimodal mode: Models receive structured text + keyframe images of collisions and ball trajectory.
 Cross-lingual evaluation: Prompts are available in English, German, and Spanish.
 Feedback loop: Models can adjust drop points based on prior attempt outcomes.
+
 ---
 
 📊 Benchmarking and Findings
@@ -53,6 +55,7 @@ Multi-turn decision-making
 Learning from feedback
 Cross-lingual reasoning
 Results highlight strengths and limitations of LLMs in dynamic, interactive spatial tasks.
+
 ---
 
 ⚙️ Notes
@@ -60,6 +63,7 @@ Results highlight strengths and limitations of LLMs in dynamic, interactive spat
 Ensure graphical output is supported for visualization (avoid headless mode).
 Use correct pymunk and pandas versions (see requirements.txt).
 Levels are procedurally generated with constraints to ensure solvable puzzles.
+
 ---
 
 📚 References
@@ -68,6 +72,7 @@ Bakhtin et al., 2019 – Physics-based puzzle design
 Chalamalasetti et al., 2023 – ClembBench interactive benchmarking
 Castillo-Bolado et al., 2024; Zhao et al., 2025 – LLM evaluation frameworks
 Fu et al., 2024 – Multimodal vision-language benchmarks
+
 ---
 
 🏗️ Future Work
@@ -76,6 +81,7 @@ Add higher difficulty levels with more obstacles
 Support additional LLMs for broader benchmarking
 Implement real-time interactive visualization
 Extend to 3D physics puzzles for more complex spatial reasoning
+
 ---
 
 ## 🚀 Getting Started
@@ -85,6 +91,7 @@ Extend to 3D physics puzzles for more complex spatial reasoning
 ```bash
 git clone https://github.com/Ravevx/LLM-Spatial-Reasoning-Evaluation-2D-Physics-Puzzle.git
 cd PhysicsPuzzle
+
 ```
 ### 2. Set Up Virtual Environment
 
