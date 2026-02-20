@@ -18,7 +18,7 @@ The environment is suitable for:
 ---
 
 ## 🎮 Game Mechanics
-![Thinking](Thinking.png)
+![Thinking](PhysicsPuzzle/Thinking.png)
 - **Objective:** Drop the blue ball so it hits the green target ball at the bottom.  
 - **Environment:** 600×600 pixel grid with obstacles of variable position and elasticity.  
 - **Dynamic Ball:** Blue, radius 18px, affected by gravity, elasticity 0.7, friction 0.2.  
@@ -32,7 +32,7 @@ The environment is suitable for:
 The level progression system creates increasing difficulty through obstacle quantity.  
 Level 1 contains a single obstacle, Level 2 introduces a second, and so on.
 
-![Levels 1 to 5](Levels 1 to 5.png)
+![Levels 1 to 5](PhysicsPuzzle/Levels 1 to 5.png)
 
 ---
 📝 Experimental Framework
