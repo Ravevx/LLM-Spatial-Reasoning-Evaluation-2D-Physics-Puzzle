@@ -19,12 +19,13 @@ The environment is suitable for:
 
 ## 🎮 Game Mechanics
 <img src="PhysicsPuzzle/Thinking.png" alt="Thinking" width="300"/>
-- Objective: Drop the blue ball so it hits the green target ball at the bottom.  
-- Environment: 600×600 pixel grid with obstacles of variable position and elasticity.  
-- Dynamic Ball: Blue, radius 18px, affected by gravity, elasticity 0.7, friction 0.2.  
-- Target Ball: Green, static, radius 18px; a hit is registered if the distance ≤36px.  
-- Obstacles: Line segments, static, varying length and position per level; affect ball trajectory.  
-- Levels: 5 levels with increasing obstacle complexity; 2 games per level.  
+
+- Objective: Drop the blue ball so it hits the green target ball at the bottom 
+- Environment: 600×600 pixel grid with obstacles of variable position and elasticity 
+- Dynamic Ball: Blue, radius 18px, affected by gravity, elasticity 0.7, friction 0.2 
+- Target Ball: Green, static, radius 18px; a hit is registered if the distance ≤36px 
+- Obstacles: Line segments, static, varying length and position per level; affect ball trajectory
+- Levels: 5 levels with increasing obstacle complexity; 2 games per level
 
 ---
 ## Level Design
@@ -39,10 +40,10 @@ Level 1 contains a single obstacle, Level 2 introduces a second, and so on.
 📝 Experimental Framework
 
 The environment supports multi-turn reasoning and visual language integration:
-Text-only mode: Models receive obstacle coordinates and textual descriptions.
-Multimodal mode: Models receive structured text + keyframe images of collisions and ball trajectory.
-Cross-lingual evaluation: Prompts are available in English, German, and Spanish.
-Feedback loop: Models can adjust drop points based on prior attempt outcomes.
+- Text-only mode: Models receive obstacle coordinates and textual descriptions
+- Multimodal mode: Models receive structured text + keyframe images of collisions and ball trajectory
+- Cross-lingual evaluation: Prompts are available in English, German, and Spanish
+- Feedback loop: Models can adjust drop points based on prior attempt outcomes
 
 ---
 
@@ -51,10 +52,10 @@ Feedback loop: Models can adjust drop points based on prior attempt outcomes.
 Models tested: Gemini-1.5-Flash, Gemma-3-27B
 Performance: Good spatial reasoning on simple levels; struggles with high complexity.
 Key cognitive abilities assessed:
-Spatial reasoning and coordinate understanding
-Multi-turn decision-making
-Learning from feedback
-Cross-lingual reasoning
+- Spatial reasoning and coordinate understanding
+- Multi-turn decision-making
+- Learning from feedback
+- Cross-lingual reasoning
 Results highlight strengths and limitations of LLMs in dynamic, interactive spatial tasks.
 
 ---
@@ -69,19 +70,19 @@ Levels are procedurally generated with constraints to ensure solvable puzzles.
 
 📚 References
 
-Bakhtin et al., 2019 – Physics-based puzzle design
-Chalamalasetti et al., 2023 – ClembBench interactive benchmarking
-Castillo-Bolado et al., 2024; Zhao et al., 2025 – LLM evaluation frameworks
-Fu et al., 2024 – Multimodal vision-language benchmarks
+- Bakhtin et al., 2019 – Physics-based puzzle design
+- Chalamalasetti et al., 2023 – ClembBench interactive benchmarking
+- Castillo-Bolado et al., 2024; Zhao et al., 2025 – LLM evaluation frameworks
+- Fu et al., 2024 – Multimodal vision-language benchmarks
 
 ---
 
 🏗️ Future Work
 
-Add higher difficulty levels with more obstacles
-Support additional LLMs for broader benchmarking
-Implement real-time interactive visualization
-Extend to 3D physics puzzles for more complex spatial reasoning
+- Add higher difficulty levels with more obstacles
+- Support additional LLMs for broader benchmarking
+- Implement real-time interactive visualization
+- Extend to 3D physics puzzles for more complex spatial reasoning
 
 ---
 
@@ -144,11 +145,9 @@ clem score
 
 clem eval
 ```
-This generates results.html, results.csv, and raw.csv files inside the results folder.
-
-results.html and results.csv summarize model performance comparisons.
-
-raw.csv contains detailed averaged scores for further analysis.
+- This generates results.html, results.csv, and raw.csv files inside the results folder.
+- results.html and results.csv summarize model performance comparisons.
+- raw.csv contains detailed averaged scores for further analysis.
 
 
 ---
