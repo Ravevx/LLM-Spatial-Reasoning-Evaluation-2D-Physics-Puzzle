@@ -32,7 +32,8 @@ The environment is suitable for:
 The level progression system creates increasing difficulty through obstacle quantity.  
 Level 1 contains a single obstacle, Level 2 introduces a second, and so on.
 
-<img src="Levels 1 to 5.png" alt="Levels 1 to 5" width="400"/>
+<img src="PhysicsPuzzle/Levels 1 to 5.png" alt="Levels 1 to 5" width="800"/>
+
 
 ---
 📝 Experimental Framework
