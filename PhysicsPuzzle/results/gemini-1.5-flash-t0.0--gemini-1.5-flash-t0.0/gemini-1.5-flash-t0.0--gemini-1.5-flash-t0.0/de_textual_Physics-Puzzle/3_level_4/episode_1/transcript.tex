@@ -1,0 +1,60 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\twocolumn
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+
+    \# & $\;$A & \multicolumn{4}{c}{Game Master} & $\;\:$B\\
+    \hline 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Du bist ein Experte für 2D-Physik-Puzzlespiele. Die Spielumgebung sieht wie folgt aus:\\ \tt \\ \tt Ein blauer Ball kann vom oberen Bildschirmrand an jeder horizontalen Position (x-Koordinate) fallen gelassen werden. Die vertikale Fallposition ist immer bei y = 100 fixiert.\\ \tt Der Ball fällt durch die Schwerkraft und kann von Hindernissen im Level rollen oder abprallen.\\ \tt Ziel ist es, den blauen Ball zu einem grünen Zielball zu führen, der sich irgendwo zwischen den Hindernissen befindet.\\ \tt Die Hindernisse können Wände, Rampen oder andere physikalische Formen sein, die die Bewegung des Balls beeinflussen.\\ \tt \\ \tt So sieht der aktuelle Spielaufbau aus:\\ \tt 1. Der grüne Zielball befindet sich an der Position (300.500), die eine feste Position darstellt.\\ \tt 2. Die Positionen und Formen der Hindernisse sind fix und ändern sich nicht.\\ \tt 3. Hier sind die vollständigen Hindernisinformationen für dieses Level:\\ \tt [{'obstacle_id': 'wall_1', 'start_point': [398, 252], 'end_point': [202, 348], 'thickness': 5, 'description': 'Segment with midpoint fixed at (300,300)'}, {'obstacle_id': 'wall_2', 'start_point': [211, 158], 'end_point': [486, 218], 'thickness': 5}, {'obstacle_id': 'wall_3', 'start_point': [156, 216], 'end_point': [250, 181], 'thickness': 5}, {'obstacle_id': 'wall_4', 'start_point': [434, 300], 'end_point': [333, 151], 'thickness': 5}]\\ \tt \\ \tt Bitte schlagt basierend auf dieser Spielbeschreibung und dem Umgebungsaufbau die beste ganzzahlige x-Koordinate zwischen 100 und 500 vor, von der der blaue Ball fallen gelassen werden kann, damit er die höchste Chance hat, den grünen Ball zu erreichen.\\ \tt WICHTIG: Antworten Sie **nur** im Format: FALLEN: <x>, wobei <x> eine Zahl zwischen 100 und 500 ist. 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 FALLEN: 200 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 drop_x=200, collisions=10, goal=True, steps=222, dist=35.6 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+\end{supertabular}
+}
+
+\end{document}

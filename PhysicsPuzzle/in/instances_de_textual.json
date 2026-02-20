@@ -1,0 +1,499 @@
+{
+  "experiments": [
+    {
+      "name": "level_1",
+      "config": {
+        "width": 600,
+        "height": 600,
+        "fps": 60,
+        "regex": "s*(\\d{3})|\b(\\d{3})\b",
+        "max_turns": 2,
+        "mode": "textual",
+        "initial_prompt": "Du bist ein Experte für 2D-Physik-Puzzlespiele. Die Spielumgebung sieht wie folgt aus:\n\nEin blauer Ball kann vom oberen Bildschirmrand an jeder horizontalen Position (x-Koordinate) fallen gelassen werden. Die vertikale Fallposition ist immer bei y = 100 fixiert.\nDer Ball fällt durch die Schwerkraft und kann von Hindernissen im Level rollen oder abprallen.\nZiel ist es, den blauen Ball zu einem grünen Zielball zu führen, der sich irgendwo zwischen den Hindernissen befindet.\nDie Hindernisse können Wände, Rampen oder andere physikalische Formen sein, die die Bewegung des Balls beeinflussen.\n\nSo sieht der aktuelle Spielaufbau aus:\n1. Der grüne Zielball befindet sich an der Position (300.500), die eine feste Position darstellt.\n2. Die Positionen und Formen der Hindernisse sind fix und ändern sich nicht.\n3. Hier sind die vollständigen Hindernisinformationen für dieses Level:\n{obstacles_str}\n\nBitte schlagt basierend auf dieser Spielbeschreibung und dem Umgebungsaufbau die beste ganzzahlige x-Koordinate zwischen 100 und 500 vor, von der der blaue Ball fallen gelassen werden kann, damit er die höchste Chance hat, den grünen Ball zu erreichen.\nWICHTIG: Antworten Sie **nur** im Format: FALLEN: <x>, wobei <x> eine Zahl zwischen 100 und 500 ist.",
+        "refined_prompt": "Du bist ein Experte für 2D-Physik-Puzzlespiele. Die Spielumgebung sieht wie folgt aus:\n\nEin blauer Ball kann vom oberen Bildschirmrand an jeder horizontalen Position (x-Koordinate) fallen gelassen werden. Die vertikale Fallposition ist immer bei y = 100 fixiert.\nDer Ball fällt durch die Schwerkraft und kann von Hindernissen im Level rollen oder abprallen.\nZiel ist es, den blauen Ball zu einem grünen Zielball zu führen, der sich irgendwo zwischen den Hindernissen befindet.\nDie Hindernisse können Wände, Rampen oder andere physikalische Formen sein, die die Bewegung des Balls beeinflussen.\n\nSo sieht der aktuelle Spielaufbau aus:\n1. Der grüne Zielball befindet sich an der festen Position (300.500).\n2. Die Positionen und Formen der Hindernisse sind fest und bleiben unverändert.\n3. Hier sind die vollständigen Hindernisinformationen für dieses Level:\n{obstacles_str}\n\nIm letzten Versuch:\n1. Der blaue Ball wurde von der Position (x={drop_x}, y=100) fallen gelassen. Er bewegte sich durch das Level, prallte ab und rollte auf Hindernissen, erreichte oder berührte aber NICHT den grünen Zielball.\n2. Die Kollisionen ereigneten sich an diesen ungefähren Koordinaten:\n{collisions}.\n\nBitte schlagen Sie basierend auf den obigen Informationen die beste ganzzahlige x-Koordinate zwischen 100 und 500 vor, an der der blaue Ball beim nächsten Mal fallen gelassen werden sollte, um die Chance zu maximieren, den grünen Ball zu erreichen und zu berühren.\nWICHTIG: Antworten Sie **nur** im Format: FALLEN: <x>, wobei <x> eine Zahl zwischen 100 und 500 ist."
+      },
+      "game_instances": [
+        {
+          "game_id": "L1_G1",
+          "obstacles": [
+            {
+              "obstacle_id": "wall_1",
+              "start_point": [
+                294,
+                231
+              ],
+              "end_point": [
+                306,
+                369
+              ],
+              "thickness": 5,
+              "description": "Segment with midpoint fixed at (300,300)"
+            }
+          ]
+        },
+        {
+          "game_id": "L1_G2",
+          "obstacles": [
+            {
+              "obstacle_id": "wall_1",
+              "start_point": [
+                236,
+                355
+              ],
+              "end_point": [
+                364,
+                245
+              ],
+              "thickness": 5,
+              "description": "Segment with midpoint fixed at (300,300)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "level_2",
+      "config": {
+        "width": 600,
+        "height": 600,
+        "fps": 60,
+        "regex": "s*(\\d{3})|\b(\\d{3})\b",
+        "max_turns": 2,
+        "mode": "textual",
+        "initial_prompt": "Du bist ein Experte für 2D-Physik-Puzzlespiele. Die Spielumgebung sieht wie folgt aus:\n\nEin blauer Ball kann vom oberen Bildschirmrand an jeder horizontalen Position (x-Koordinate) fallen gelassen werden. Die vertikale Fallposition ist immer bei y = 100 fixiert.\nDer Ball fällt durch die Schwerkraft und kann von Hindernissen im Level rollen oder abprallen.\nZiel ist es, den blauen Ball zu einem grünen Zielball zu führen, der sich irgendwo zwischen den Hindernissen befindet.\nDie Hindernisse können Wände, Rampen oder andere physikalische Formen sein, die die Bewegung des Balls beeinflussen.\n\nSo sieht der aktuelle Spielaufbau aus:\n1. Der grüne Zielball befindet sich an der Position (300.500), die eine feste Position darstellt.\n2. Die Positionen und Formen der Hindernisse sind fix und ändern sich nicht.\n3. Hier sind die vollständigen Hindernisinformationen für dieses Level:\n{obstacles_str}\n\nBitte schlagt basierend auf dieser Spielbeschreibung und dem Umgebungsaufbau die beste ganzzahlige x-Koordinate zwischen 100 und 500 vor, von der der blaue Ball fallen gelassen werden kann, damit er die höchste Chance hat, den grünen Ball zu erreichen.\nWICHTIG: Antworten Sie **nur** im Format: FALLEN: <x>, wobei <x> eine Zahl zwischen 100 und 500 ist.",
+        "refined_prompt": "Du bist ein Experte für 2D-Physik-Puzzlespiele. Die Spielumgebung sieht wie folgt aus:\n\nEin blauer Ball kann vom oberen Bildschirmrand an jeder horizontalen Position (x-Koordinate) fallen gelassen werden. Die vertikale Fallposition ist immer bei y = 100 fixiert.\nDer Ball fällt durch die Schwerkraft und kann von Hindernissen im Level rollen oder abprallen.\nZiel ist es, den blauen Ball zu einem grünen Zielball zu führen, der sich irgendwo zwischen den Hindernissen befindet.\nDie Hindernisse können Wände, Rampen oder andere physikalische Formen sein, die die Bewegung des Balls beeinflussen.\n\nSo sieht der aktuelle Spielaufbau aus:\n1. Der grüne Zielball befindet sich an der festen Position (300.500).\n2. Die Positionen und Formen der Hindernisse sind fest und bleiben unverändert.\n3. Hier sind die vollständigen Hindernisinformationen für dieses Level:\n{obstacles_str}\n\nIm letzten Versuch:\n1. Der blaue Ball wurde von der Position (x={drop_x}, y=100) fallen gelassen. Er bewegte sich durch das Level, prallte ab und rollte auf Hindernissen, erreichte oder berührte aber NICHT den grünen Zielball.\n2. Die Kollisionen ereigneten sich an diesen ungefähren Koordinaten:\n{collisions}.\n\nBitte schlagen Sie basierend auf den obigen Informationen die beste ganzzahlige x-Koordinate zwischen 100 und 500 vor, an der der blaue Ball beim nächsten Mal fallen gelassen werden sollte, um die Chance zu maximieren, den grünen Ball zu erreichen und zu berühren.\nWICHTIG: Antworten Sie **nur** im Format: FALLEN: <x>, wobei <x> eine Zahl zwischen 100 und 500 ist."
+      },
+      "game_instances": [
+        {
+          "game_id": "L2_G1",
+          "obstacles": [
+            {
+              "obstacle_id": "wall_1",
+              "start_point": [
+                265,
+                363
+              ],
+              "end_point": [
+                335,
+                237
+              ],
+              "thickness": 5,
+              "description": "Segment with midpoint fixed at (300,300)"
+            },
+            {
+              "obstacle_id": "wall_2",
+              "start_point": [
+                433,
+                266
+              ],
+              "end_point": [
+                243,
+                260
+              ],
+              "thickness": 5
+            }
+          ]
+        },
+        {
+          "game_id": "L2_G2",
+          "obstacles": [
+            {
+              "obstacle_id": "wall_1",
+              "start_point": [
+                169,
+                201
+              ],
+              "end_point": [
+                431,
+                399
+              ],
+              "thickness": 5,
+              "description": "Segment with midpoint fixed at (300,300)"
+            },
+            {
+              "obstacle_id": "wall_2",
+              "start_point": [
+                481,
+                151
+              ],
+              "end_point": [
+                178,
+                179
+              ],
+              "thickness": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "level_3",
+      "config": {
+        "width": 600,
+        "height": 600,
+        "fps": 60,
+        "regex": "s*(\\d{3})|\b(\\d{3})\b",
+        "max_turns": 2,
+        "mode": "textual",
+        "initial_prompt": "Du bist ein Experte für 2D-Physik-Puzzlespiele. Die Spielumgebung sieht wie folgt aus:\n\nEin blauer Ball kann vom oberen Bildschirmrand an jeder horizontalen Position (x-Koordinate) fallen gelassen werden. Die vertikale Fallposition ist immer bei y = 100 fixiert.\nDer Ball fällt durch die Schwerkraft und kann von Hindernissen im Level rollen oder abprallen.\nZiel ist es, den blauen Ball zu einem grünen Zielball zu führen, der sich irgendwo zwischen den Hindernissen befindet.\nDie Hindernisse können Wände, Rampen oder andere physikalische Formen sein, die die Bewegung des Balls beeinflussen.\n\nSo sieht der aktuelle Spielaufbau aus:\n1. Der grüne Zielball befindet sich an der Position (300.500), die eine feste Position darstellt.\n2. Die Positionen und Formen der Hindernisse sind fix und ändern sich nicht.\n3. Hier sind die vollständigen Hindernisinformationen für dieses Level:\n{obstacles_str}\n\nBitte schlagt basierend auf dieser Spielbeschreibung und dem Umgebungsaufbau die beste ganzzahlige x-Koordinate zwischen 100 und 500 vor, von der der blaue Ball fallen gelassen werden kann, damit er die höchste Chance hat, den grünen Ball zu erreichen.\nWICHTIG: Antworten Sie **nur** im Format: FALLEN: <x>, wobei <x> eine Zahl zwischen 100 und 500 ist.",
+        "refined_prompt": "Du bist ein Experte für 2D-Physik-Puzzlespiele. Die Spielumgebung sieht wie folgt aus:\n\nEin blauer Ball kann vom oberen Bildschirmrand an jeder horizontalen Position (x-Koordinate) fallen gelassen werden. Die vertikale Fallposition ist immer bei y = 100 fixiert.\nDer Ball fällt durch die Schwerkraft und kann von Hindernissen im Level rollen oder abprallen.\nZiel ist es, den blauen Ball zu einem grünen Zielball zu führen, der sich irgendwo zwischen den Hindernissen befindet.\nDie Hindernisse können Wände, Rampen oder andere physikalische Formen sein, die die Bewegung des Balls beeinflussen.\n\nSo sieht der aktuelle Spielaufbau aus:\n1. Der grüne Zielball befindet sich an der festen Position (300.500).\n2. Die Positionen und Formen der Hindernisse sind fest und bleiben unverändert.\n3. Hier sind die vollständigen Hindernisinformationen für dieses Level:\n{obstacles_str}\n\nIm letzten Versuch:\n1. Der blaue Ball wurde von der Position (x={drop_x}, y=100) fallen gelassen. Er bewegte sich durch das Level, prallte ab und rollte auf Hindernissen, erreichte oder berührte aber NICHT den grünen Zielball.\n2. Die Kollisionen ereigneten sich an diesen ungefähren Koordinaten:\n{collisions}.\n\nBitte schlagen Sie basierend auf den obigen Informationen die beste ganzzahlige x-Koordinate zwischen 100 und 500 vor, an der der blaue Ball beim nächsten Mal fallen gelassen werden sollte, um die Chance zu maximieren, den grünen Ball zu erreichen und zu berühren.\nWICHTIG: Antworten Sie **nur** im Format: FALLEN: <x>, wobei <x> eine Zahl zwischen 100 und 500 ist."
+      },
+      "game_instances": [
+        {
+          "game_id": "L3_G1",
+          "obstacles": [
+            {
+              "obstacle_id": "wall_1",
+              "start_point": [
+                203,
+                320
+              ],
+              "end_point": [
+                397,
+                280
+              ],
+              "thickness": 5,
+              "description": "Segment with midpoint fixed at (300,300)"
+            },
+            {
+              "obstacle_id": "wall_2",
+              "start_point": [
+                189,
+                252
+              ],
+              "end_point": [
+                297,
+                262
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_3",
+              "start_point": [
+                374,
+                194
+              ],
+              "end_point": [
+                361,
+                365
+              ],
+              "thickness": 5
+            }
+          ]
+        },
+        {
+          "game_id": "L3_G2",
+          "obstacles": [
+            {
+              "obstacle_id": "wall_1",
+              "start_point": [
+                183,
+                373
+              ],
+              "end_point": [
+                417,
+                227
+              ],
+              "thickness": 5,
+              "description": "Segment with midpoint fixed at (300,300)"
+            },
+            {
+              "obstacle_id": "wall_2",
+              "start_point": [
+                362,
+                281
+              ],
+              "end_point": [
+                129,
+                160
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_3",
+              "start_point": [
+                177,
+                291
+              ],
+              "end_point": [
+                148,
+                208
+              ],
+              "thickness": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "level_4",
+      "config": {
+        "width": 600,
+        "height": 600,
+        "fps": 60,
+        "regex": "s*(\\d{3})|\b(\\d{3})\b",
+        "max_turns": 2,
+        "mode": "textual",
+        "initial_prompt": "Du bist ein Experte für 2D-Physik-Puzzlespiele. Die Spielumgebung sieht wie folgt aus:\n\nEin blauer Ball kann vom oberen Bildschirmrand an jeder horizontalen Position (x-Koordinate) fallen gelassen werden. Die vertikale Fallposition ist immer bei y = 100 fixiert.\nDer Ball fällt durch die Schwerkraft und kann von Hindernissen im Level rollen oder abprallen.\nZiel ist es, den blauen Ball zu einem grünen Zielball zu führen, der sich irgendwo zwischen den Hindernissen befindet.\nDie Hindernisse können Wände, Rampen oder andere physikalische Formen sein, die die Bewegung des Balls beeinflussen.\n\nSo sieht der aktuelle Spielaufbau aus:\n1. Der grüne Zielball befindet sich an der Position (300.500), die eine feste Position darstellt.\n2. Die Positionen und Formen der Hindernisse sind fix und ändern sich nicht.\n3. Hier sind die vollständigen Hindernisinformationen für dieses Level:\n{obstacles_str}\n\nBitte schlagt basierend auf dieser Spielbeschreibung und dem Umgebungsaufbau die beste ganzzahlige x-Koordinate zwischen 100 und 500 vor, von der der blaue Ball fallen gelassen werden kann, damit er die höchste Chance hat, den grünen Ball zu erreichen.\nWICHTIG: Antworten Sie **nur** im Format: FALLEN: <x>, wobei <x> eine Zahl zwischen 100 und 500 ist.",
+        "refined_prompt": "Du bist ein Experte für 2D-Physik-Puzzlespiele. Die Spielumgebung sieht wie folgt aus:\n\nEin blauer Ball kann vom oberen Bildschirmrand an jeder horizontalen Position (x-Koordinate) fallen gelassen werden. Die vertikale Fallposition ist immer bei y = 100 fixiert.\nDer Ball fällt durch die Schwerkraft und kann von Hindernissen im Level rollen oder abprallen.\nZiel ist es, den blauen Ball zu einem grünen Zielball zu führen, der sich irgendwo zwischen den Hindernissen befindet.\nDie Hindernisse können Wände, Rampen oder andere physikalische Formen sein, die die Bewegung des Balls beeinflussen.\n\nSo sieht der aktuelle Spielaufbau aus:\n1. Der grüne Zielball befindet sich an der festen Position (300.500).\n2. Die Positionen und Formen der Hindernisse sind fest und bleiben unverändert.\n3. Hier sind die vollständigen Hindernisinformationen für dieses Level:\n{obstacles_str}\n\nIm letzten Versuch:\n1. Der blaue Ball wurde von der Position (x={drop_x}, y=100) fallen gelassen. Er bewegte sich durch das Level, prallte ab und rollte auf Hindernissen, erreichte oder berührte aber NICHT den grünen Zielball.\n2. Die Kollisionen ereigneten sich an diesen ungefähren Koordinaten:\n{collisions}.\n\nBitte schlagen Sie basierend auf den obigen Informationen die beste ganzzahlige x-Koordinate zwischen 100 und 500 vor, an der der blaue Ball beim nächsten Mal fallen gelassen werden sollte, um die Chance zu maximieren, den grünen Ball zu erreichen und zu berühren.\nWICHTIG: Antworten Sie **nur** im Format: FALLEN: <x>, wobei <x> eine Zahl zwischen 100 und 500 ist."
+      },
+      "game_instances": [
+        {
+          "game_id": "L4_G1",
+          "obstacles": [
+            {
+              "obstacle_id": "wall_1",
+              "start_point": [
+                149,
+                305
+              ],
+              "end_point": [
+                451,
+                295
+              ],
+              "thickness": 5,
+              "description": "Segment with midpoint fixed at (300,300)"
+            },
+            {
+              "obstacle_id": "wall_2",
+              "start_point": [
+                348,
+                153
+              ],
+              "end_point": [
+                410,
+                169
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_3",
+              "start_point": [
+                390,
+                280
+              ],
+              "end_point": [
+                306,
+                326
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_4",
+              "start_point": [
+                251,
+                266
+              ],
+              "end_point": [
+                319,
+                170
+              ],
+              "thickness": 5
+            }
+          ]
+        },
+        {
+          "game_id": "L4_G2",
+          "obstacles": [
+            {
+              "obstacle_id": "wall_1",
+              "start_point": [
+                398,
+                252
+              ],
+              "end_point": [
+                202,
+                348
+              ],
+              "thickness": 5,
+              "description": "Segment with midpoint fixed at (300,300)"
+            },
+            {
+              "obstacle_id": "wall_2",
+              "start_point": [
+                211,
+                158
+              ],
+              "end_point": [
+                486,
+                218
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_3",
+              "start_point": [
+                156,
+                216
+              ],
+              "end_point": [
+                250,
+                181
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_4",
+              "start_point": [
+                434,
+                300
+              ],
+              "end_point": [
+                333,
+                151
+              ],
+              "thickness": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "level_5",
+      "config": {
+        "width": 600,
+        "height": 600,
+        "fps": 60,
+        "regex": "s*(\\d{3})|\b(\\d{3})\b",
+        "max_turns": 2,
+        "mode": "textual",
+        "initial_prompt": "Du bist ein Experte für 2D-Physik-Puzzlespiele. Die Spielumgebung sieht wie folgt aus:\n\nEin blauer Ball kann vom oberen Bildschirmrand an jeder horizontalen Position (x-Koordinate) fallen gelassen werden. Die vertikale Fallposition ist immer bei y = 100 fixiert.\nDer Ball fällt durch die Schwerkraft und kann von Hindernissen im Level rollen oder abprallen.\nZiel ist es, den blauen Ball zu einem grünen Zielball zu führen, der sich irgendwo zwischen den Hindernissen befindet.\nDie Hindernisse können Wände, Rampen oder andere physikalische Formen sein, die die Bewegung des Balls beeinflussen.\n\nSo sieht der aktuelle Spielaufbau aus:\n1. Der grüne Zielball befindet sich an der Position (300.500), die eine feste Position darstellt.\n2. Die Positionen und Formen der Hindernisse sind fix und ändern sich nicht.\n3. Hier sind die vollständigen Hindernisinformationen für dieses Level:\n{obstacles_str}\n\nBitte schlagt basierend auf dieser Spielbeschreibung und dem Umgebungsaufbau die beste ganzzahlige x-Koordinate zwischen 100 und 500 vor, von der der blaue Ball fallen gelassen werden kann, damit er die höchste Chance hat, den grünen Ball zu erreichen.\nWICHTIG: Antworten Sie **nur** im Format: FALLEN: <x>, wobei <x> eine Zahl zwischen 100 und 500 ist.",
+        "refined_prompt": "Du bist ein Experte für 2D-Physik-Puzzlespiele. Die Spielumgebung sieht wie folgt aus:\n\nEin blauer Ball kann vom oberen Bildschirmrand an jeder horizontalen Position (x-Koordinate) fallen gelassen werden. Die vertikale Fallposition ist immer bei y = 100 fixiert.\nDer Ball fällt durch die Schwerkraft und kann von Hindernissen im Level rollen oder abprallen.\nZiel ist es, den blauen Ball zu einem grünen Zielball zu führen, der sich irgendwo zwischen den Hindernissen befindet.\nDie Hindernisse können Wände, Rampen oder andere physikalische Formen sein, die die Bewegung des Balls beeinflussen.\n\nSo sieht der aktuelle Spielaufbau aus:\n1. Der grüne Zielball befindet sich an der festen Position (300.500).\n2. Die Positionen und Formen der Hindernisse sind fest und bleiben unverändert.\n3. Hier sind die vollständigen Hindernisinformationen für dieses Level:\n{obstacles_str}\n\nIm letzten Versuch:\n1. Der blaue Ball wurde von der Position (x={drop_x}, y=100) fallen gelassen. Er bewegte sich durch das Level, prallte ab und rollte auf Hindernissen, erreichte oder berührte aber NICHT den grünen Zielball.\n2. Die Kollisionen ereigneten sich an diesen ungefähren Koordinaten:\n{collisions}.\n\nBitte schlagen Sie basierend auf den obigen Informationen die beste ganzzahlige x-Koordinate zwischen 100 und 500 vor, an der der blaue Ball beim nächsten Mal fallen gelassen werden sollte, um die Chance zu maximieren, den grünen Ball zu erreichen und zu berühren.\nWICHTIG: Antworten Sie **nur** im Format: FALLEN: <x>, wobei <x> eine Zahl zwischen 100 und 500 ist."
+      },
+      "game_instances": [
+        {
+          "game_id": "L5_G1",
+          "obstacles": [
+            {
+              "obstacle_id": "wall_1",
+              "start_point": [
+                460,
+                363
+              ],
+              "end_point": [
+                140,
+                237
+              ],
+              "thickness": 5,
+              "description": "Segment with midpoint fixed at (300,300)"
+            },
+            {
+              "obstacle_id": "wall_2",
+              "start_point": [
+                388,
+                221
+              ],
+              "end_point": [
+                463,
+                286
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_3",
+              "start_point": [
+                312,
+                292
+              ],
+              "end_point": [
+                497,
+                398
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_4",
+              "start_point": [
+                315,
+                284
+              ],
+              "end_point": [
+                353,
+                287
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_5",
+              "start_point": [
+                162,
+                178
+              ],
+              "end_point": [
+                279,
+                204
+              ],
+              "thickness": 5
+            }
+          ]
+        },
+        {
+          "game_id": "L5_G2",
+          "obstacles": [
+            {
+              "obstacle_id": "wall_1",
+              "start_point": [
+                138,
+                291
+              ],
+              "end_point": [
+                462,
+                309
+              ],
+              "thickness": 5,
+              "description": "Segment with midpoint fixed at (300,300)"
+            },
+            {
+              "obstacle_id": "wall_2",
+              "start_point": [
+                468,
+                364
+              ],
+              "end_point": [
+                356,
+                175
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_3",
+              "start_point": [
+                238,
+                322
+              ],
+              "end_point": [
+                265,
+                232
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_4",
+              "start_point": [
+                440,
+                227
+              ],
+              "end_point": [
+                270,
+                185
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_5",
+              "start_point": [
+                307,
+                325
+              ],
+              "end_point": [
+                370,
+                338
+              ],
+              "thickness": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

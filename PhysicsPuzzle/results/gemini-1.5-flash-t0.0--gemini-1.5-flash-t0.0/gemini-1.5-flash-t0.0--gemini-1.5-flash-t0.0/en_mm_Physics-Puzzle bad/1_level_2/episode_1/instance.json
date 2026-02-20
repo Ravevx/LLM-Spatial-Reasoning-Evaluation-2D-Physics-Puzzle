@@ -1,0 +1,1 @@
+{"game_id": "L2_G2", "obstacles": [{"obstacle_id": "wall_1", "start_point": [321, 235], "end_point": [279, 365], "thickness": 5, "description": "Segment with midpoint fixed at (300,300)"}, {"obstacle_id": "wall_2", "start_point": [170, 333], "end_point": [121, 238], "thickness": 5}]}

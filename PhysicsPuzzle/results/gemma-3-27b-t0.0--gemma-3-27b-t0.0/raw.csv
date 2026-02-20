@@ -1,0 +1,421 @@
+,game,model,experiment,episode,metric,value
+0,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Success,1.0
+1,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Lose,0.0
+2,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Aborted,0.0
+3,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Main Score,99.23
+4,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Final Score (%),99.23
+5,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Turns Used,1.0
+6,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Success,1.0
+7,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Lose,0.0
+8,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Aborted,0.0
+9,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Main Score,99.23
+10,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Final Score (%),99.23
+11,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Turns Used,1.0
+12,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Success,1.0
+13,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Lose,0.0
+14,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Aborted,0.0
+15,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Main Score,99.23
+16,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Final Score (%),99.23
+17,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Turns Used,1.0
+18,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Success,1.0
+19,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Lose,0.0
+20,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Aborted,0.0
+21,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Main Score,99.23
+22,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Final Score (%),99.23
+23,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Turns Used,1.0
+24,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Success,0.0
+25,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Lose,1.0
+26,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Aborted,0.0
+27,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Main Score,0.0
+28,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Final Score (%),0.0
+29,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Turns Used,2.0
+30,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Success,0.0
+31,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Lose,1.0
+32,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Aborted,0.0
+33,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Main Score,0.0
+34,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Final Score (%),0.0
+35,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Turns Used,2.0
+36,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Success,1.0
+37,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Lose,0.0
+38,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Aborted,0.0
+39,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Main Score,99.23
+40,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Final Score (%),99.23
+41,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Turns Used,1.0
+42,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Success,0.0
+43,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Lose,1.0
+44,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Aborted,0.0
+45,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Main Score,0.0
+46,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Final Score (%),0.0
+47,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Turns Used,2.0
+48,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Success,1.0
+49,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Lose,0.0
+50,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Aborted,0.0
+51,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Main Score,98.46
+52,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Final Score (%),98.46
+53,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Turns Used,2.0
+54,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Success,0.0
+55,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Lose,1.0
+56,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Aborted,0.0
+57,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Main Score,0.0
+58,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Final Score (%),0.0
+59,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Turns Used,2.0
+60,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Success,1.0
+61,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Lose,0.0
+62,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Aborted,0.0
+63,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Main Score,98.46
+64,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Final Score (%),98.46
+65,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Turns Used,2.0
+66,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Success,1.0
+67,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Lose,0.0
+68,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Aborted,0.0
+69,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Main Score,98.46
+70,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Final Score (%),98.46
+71,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Turns Used,2.0
+72,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Success,1.0
+73,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Lose,0.0
+74,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Aborted,0.0
+75,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Main Score,98.46
+76,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Final Score (%),98.46
+77,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Turns Used,2.0
+78,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Success,1.0
+79,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Lose,0.0
+80,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Aborted,0.0
+81,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Main Score,98.46
+82,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Final Score (%),98.46
+83,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Turns Used,2.0
+84,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Success,0.0
+85,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Lose,1.0
+86,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Aborted,0.0
+87,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Main Score,0.0
+88,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Final Score (%),0.0
+89,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Turns Used,2.0
+90,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Success,0.0
+91,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Lose,1.0
+92,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Aborted,0.0
+93,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Main Score,0.0
+94,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Final Score (%),0.0
+95,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Turns Used,2.0
+96,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Success,1.0
+97,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Lose,0.0
+98,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Aborted,0.0
+99,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Main Score,98.46
+100,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Final Score (%),98.46
+101,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Turns Used,2.0
+102,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Success,0.0
+103,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Lose,1.0
+104,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Aborted,0.0
+105,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Main Score,0.0
+106,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Final Score (%),0.0
+107,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Turns Used,2.0
+108,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Success,0.0
+109,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Lose,1.0
+110,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Aborted,0.0
+111,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Main Score,0.0
+112,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Final Score (%),0.0
+113,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Turns Used,2.0
+114,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Success,0.0
+115,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Lose,1.0
+116,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Aborted,0.0
+117,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Main Score,0.0
+118,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Final Score (%),0.0
+119,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Turns Used,2.0
+120,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Success,1.0
+121,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Lose,0.0
+122,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Aborted,0.0
+123,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Main Score,99.23
+124,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Final Score (%),99.23
+125,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Turns Used,1.0
+126,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Success,0.0
+127,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Lose,1.0
+128,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Aborted,0.0
+129,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Main Score,0.0
+130,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Final Score (%),0.0
+131,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Turns Used,2.0
+132,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Success,1.0
+133,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Lose,0.0
+134,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Aborted,0.0
+135,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Main Score,99.23
+136,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Final Score (%),99.23
+137,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Turns Used,1.0
+138,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Success,1.0
+139,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Lose,0.0
+140,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Aborted,0.0
+141,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Main Score,99.23
+142,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Final Score (%),99.23
+143,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Turns Used,1.0
+144,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Success,0.0
+145,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Lose,1.0
+146,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Aborted,0.0
+147,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Main Score,0.0
+148,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Final Score (%),0.0
+149,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Turns Used,2.0
+150,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Success,1.0
+151,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Lose,0.0
+152,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Aborted,0.0
+153,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Main Score,99.23
+154,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Final Score (%),99.23
+155,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Turns Used,1.0
+156,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Success,0.0
+157,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Lose,1.0
+158,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Aborted,0.0
+159,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Main Score,0.0
+160,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Final Score (%),0.0
+161,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Turns Used,2.0
+162,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Success,1.0
+163,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Lose,0.0
+164,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Aborted,0.0
+165,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Main Score,99.23
+166,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Final Score (%),99.23
+167,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Turns Used,1.0
+168,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Success,0.0
+169,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Lose,1.0
+170,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Aborted,0.0
+171,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Main Score,0.0
+172,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Final Score (%),0.0
+173,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Turns Used,2.0
+174,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Success,1.0
+175,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Lose,0.0
+176,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Aborted,0.0
+177,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Main Score,98.46
+178,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Final Score (%),98.46
+179,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Turns Used,2.0
+180,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Success,1.0
+181,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Lose,0.0
+182,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Aborted,0.0
+183,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Main Score,99.23
+184,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Final Score (%),99.23
+185,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Turns Used,1.0
+186,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Success,1.0
+187,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Lose,0.0
+188,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Aborted,0.0
+189,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Main Score,98.46
+190,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Final Score (%),98.46
+191,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Turns Used,2.0
+192,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Success,1.0
+193,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Lose,0.0
+194,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Aborted,0.0
+195,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Main Score,99.23
+196,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Final Score (%),99.23
+197,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Turns Used,1.0
+198,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Success,1.0
+199,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Lose,0.0
+200,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Aborted,0.0
+201,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Main Score,99.23
+202,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Final Score (%),99.23
+203,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Turns Used,1.0
+204,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Success,1.0
+205,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Lose,0.0
+206,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Aborted,0.0
+207,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Main Score,98.46
+208,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Final Score (%),98.46
+209,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Turns Used,2.0
+210,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Success,1.0
+211,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Lose,0.0
+212,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Aborted,0.0
+213,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Main Score,99.23
+214,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Final Score (%),99.23
+215,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Turns Used,1.0
+216,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Success,0.0
+217,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Lose,1.0
+218,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Aborted,0.0
+219,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Main Score,0.0
+220,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Final Score (%),0.0
+221,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Turns Used,2.0
+222,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Success,1.0
+223,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Lose,0.0
+224,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Aborted,0.0
+225,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Main Score,98.46
+226,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Final Score (%),98.46
+227,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Turns Used,2.0
+228,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Success,0.0
+229,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Lose,1.0
+230,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Aborted,0.0
+231,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Main Score,0.0
+232,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Final Score (%),0.0
+233,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Turns Used,2.0
+234,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Success,1.0
+235,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Lose,0.0
+236,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Aborted,0.0
+237,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Main Score,99.23
+238,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Final Score (%),99.23
+239,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Turns Used,1.0
+240,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Success,1.0
+241,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Lose,0.0
+242,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Aborted,0.0
+243,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Main Score,99.23
+244,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Final Score (%),99.23
+245,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Turns Used,1.0
+246,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Success,1.0
+247,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Lose,0.0
+248,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Aborted,0.0
+249,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Main Score,99.23
+250,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Final Score (%),99.23
+251,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Turns Used,1.0
+252,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Success,1.0
+253,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Lose,0.0
+254,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Aborted,0.0
+255,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Main Score,99.23
+256,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Final Score (%),99.23
+257,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Turns Used,1.0
+258,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Success,0.0
+259,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Lose,1.0
+260,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Aborted,0.0
+261,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Main Score,0.0
+262,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Final Score (%),0.0
+263,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Turns Used,2.0
+264,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Success,1.0
+265,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Lose,0.0
+266,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Aborted,0.0
+267,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Main Score,98.46
+268,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Final Score (%),98.46
+269,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Turns Used,2.0
+270,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Success,1.0
+271,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Lose,0.0
+272,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Aborted,0.0
+273,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Main Score,99.23
+274,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Final Score (%),99.23
+275,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Turns Used,1.0
+276,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Success,1.0
+277,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Lose,0.0
+278,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Aborted,0.0
+279,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Main Score,99.23
+280,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Final Score (%),99.23
+281,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Turns Used,1.0
+282,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Success,1.0
+283,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Lose,0.0
+284,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Aborted,0.0
+285,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Main Score,99.23
+286,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Final Score (%),99.23
+287,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Turns Used,1.0
+288,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Success,1.0
+289,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Lose,0.0
+290,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Aborted,0.0
+291,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Main Score,99.23
+292,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Final Score (%),99.23
+293,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Turns Used,1.0
+294,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Success,0.0
+295,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Lose,1.0
+296,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Aborted,0.0
+297,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Main Score,0.0
+298,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Final Score (%),0.0
+299,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Turns Used,2.0
+300,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Success,1.0
+301,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Lose,0.0
+302,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Aborted,0.0
+303,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Main Score,98.46
+304,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Final Score (%),98.46
+305,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Turns Used,2.0
+306,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Success,1.0
+307,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Lose,0.0
+308,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Aborted,0.0
+309,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Main Score,98.46
+310,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Final Score (%),98.46
+311,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Turns Used,2.0
+312,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Success,0.0
+313,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Lose,1.0
+314,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Aborted,0.0
+315,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Main Score,0.0
+316,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Final Score (%),0.0
+317,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Turns Used,2.0
+318,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Success,0.0
+319,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Lose,1.0
+320,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Aborted,0.0
+321,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Main Score,0.0
+322,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Final Score (%),0.0
+323,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Turns Used,2.0
+324,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Success,1.0
+325,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Lose,0.0
+326,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Aborted,0.0
+327,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Main Score,98.46
+328,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Final Score (%),98.46
+329,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Turns Used,2.0
+330,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Success,1.0
+331,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Lose,0.0
+332,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Aborted,0.0
+333,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Main Score,99.23
+334,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Final Score (%),99.23
+335,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Turns Used,1.0
+336,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Success,1.0
+337,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Lose,0.0
+338,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Aborted,0.0
+339,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Main Score,99.23
+340,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Final Score (%),99.23
+341,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Turns Used,1.0
+342,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Success,1.0
+343,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Lose,0.0
+344,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Aborted,0.0
+345,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Main Score,98.46
+346,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Final Score (%),98.46
+347,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Turns Used,2.0
+348,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Success,1.0
+349,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Lose,0.0
+350,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Aborted,0.0
+351,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Main Score,99.23
+352,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Final Score (%),99.23
+353,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Turns Used,1.0
+354,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Success,0.0
+355,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Lose,1.0
+356,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Aborted,0.0
+357,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Main Score,0.0
+358,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Final Score (%),0.0
+359,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Turns Used,2.0
+360,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Played,1.0
+361,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Played,1.0
+362,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Played,1.0
+363,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Played,1.0
+364,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Played,1.0
+365,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Played,1.0
+366,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Played,1.0
+367,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Played,1.0
+368,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Played,1.0
+369,de_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Played,1.0
+370,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Played,1.0
+371,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Played,1.0
+372,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Played,1.0
+373,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Played,1.0
+374,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Played,1.0
+375,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Played,1.0
+376,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Played,1.0
+377,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Played,1.0
+378,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Played,1.0
+379,de_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Played,1.0
+380,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Played,1.0
+381,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Played,1.0
+382,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Played,1.0
+383,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Played,1.0
+384,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Played,1.0
+385,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Played,1.0
+386,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Played,1.0
+387,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Played,1.0
+388,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Played,1.0
+389,en_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Played,1.0
+390,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Played,1.0
+391,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Played,1.0
+392,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Played,1.0
+393,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Played,1.0
+394,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Played,1.0
+395,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Played,1.0
+396,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Played,1.0
+397,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Played,1.0
+398,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Played,1.0
+399,en_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Played,1.0
+400,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Played,1.0
+401,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Played,1.0
+402,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Played,1.0
+403,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Played,1.0
+404,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Played,1.0
+405,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Played,1.0
+406,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Played,1.0
+407,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Played,1.0
+408,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Played,1.0
+409,sp_mm_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Played,1.0
+410,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_0,Played,1.0
+411,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,0_level_1,episode_1,Played,1.0
+412,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_0,Played,1.0
+413,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,1_level_2,episode_1,Played,1.0
+414,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_0,Played,1.0
+415,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,2_level_3,episode_1,Played,1.0
+416,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_0,Played,1.0
+417,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,3_level_4,episode_1,Played,1.0
+418,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_0,Played,1.0
+419,sp_textual_Physics-Puzzle,gemma-3-27b-t0.0--gemma-3-27b-t0.0,4_level_5,episode_1,Played,1.0

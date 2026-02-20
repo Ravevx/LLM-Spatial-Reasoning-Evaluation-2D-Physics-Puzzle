@@ -1,0 +1,96 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\twocolumn
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+
+    \# & $\;$A & \multicolumn{4}{c}{Game Master} & $\;\:$B\\
+    \hline 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Eres un experto en juegos de puzles de física 2D. El entorno del juego es el siguiente:\\ \tt \\ \tt Hay una bola azul que se puede dejar caer desde el borde superior de la pantalla en cualquier posición horizontal (coordenada x). La posición de caída vertical siempre está fija en y = 100.\\ \tt La bola cae por gravedad y puede rodar o rebotar en los obstáculos colocados a lo largo del nivel.\\ \tt El objetivo es que la bola azul alcance y toque una bola objetivo verde ubicada entre los obstáculos.\\ \tt Los obstáculos pueden ser paredes, rampas u otras formas físicas que afecten el movimiento de la bola.\\ \tt \\ \tt Esta es la configuración actual del juego:\\ \tt 1. La bola objetivo verde se encuentra en (300,500), una posición fija.\\ \tt 2. Las posiciones y formas de los obstáculos son fijas y no cambian. 3. Aquí está la información completa de los obstáculos para este nivel:\\ \tt [{'obstacle_id': 'wall_1', 'start_point': [344, 358], 'end_point': [256, 242], 'thickness': 5, 'description': 'Segment with midpoint fixed at (300,300)'}, {'obstacle_id': 'wall_2', 'start_point': [495, 245], 'end_point': [182, 374], 'thickness': 5}, {'obstacle_id': 'wall_3', 'start_point': [453, 245], 'end_point': [312, 356], 'thickness': 5}]\\ \tt \\ \tt Con base en esta descripción del juego y la configuración del entorno, sugiera la mejor coordenada x entera entre 100 y 500 para lanzar la bola azul, de modo que tenga la mayor probabilidad de alcanzar la bola verde.\\ \tt IMPORTANTE: Responda **solo** en el formato: SOLTAR: <x>, donde <x> es un número entre 100 y 500. 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 SOLTAR: 150 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 drop_x=150, collisions=6, goal=False, steps=None, dist=152.4 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Eres un experto en juegos de puzles de física 2D. El entorno del juego es el siguiente:\\ \tt \\ \tt Hay una bola azul que se puede dejar caer desde el borde superior de la pantalla en cualquier posición horizontal (coordenada x). La posición de caída vertical siempre está fija en y = 100.\\ \tt La bola cae por gravedad y puede rodar o rebotar en los obstáculos colocados a lo largo del nivel.\\ \tt El objetivo es que la bola azul alcance y toque una bola objetivo verde ubicada entre los obstáculos.\\ \tt Los obstáculos pueden ser paredes, rampas u otras formas físicas que afectan el movimiento de la bola.\\ \tt \\ \tt Esta es la configuración actual del juego:\\ \tt 1. La bola objetivo verde se encuentra en (300,500), una posición fija.\\ \tt 2. Las posiciones y formas de los obstáculos son fijas y permanecen invariables. 3. Aquí está la información completa de los obstáculos para este nivel:\\ \tt [{'obstacle_id': 'wall_1', 'start_point': [344, 358], 'end_point': [256, 242], 'thickness': 5, 'description': 'Segment with midpoint fixed at (300,300)'}, {'obstacle_id': 'wall_2', 'start_point': [495, 245], 'end_point': [182, 374], 'thickness': 5}, {'obstacle_id': 'wall_3', 'start_point': [453, 245], 'end_point': [312, 356], 'thickness': 5}]\\ \tt \\ \tt En el último intento:\\ \tt 1. La bola azul se dejó caer desde la posición (x=150, y=100). La bola se movió por el nivel, rebotando y rodando sobre los obstáculos, pero NO alcanzó ni tocó la bola verde objetivo.\\ \tt 2. Las colisiones ocurrieron en estas coordenadas aproximadas:\\ \tt Collision #1: (150.0, 545.8)\\ \tt Collision #2: (150.0, 546.0)\\ \tt Collision #3: (150.0, 548.7)\\ \tt Collision #4: (150.0, 545.5)\\ \tt Collision #5: (150.0, 546.0)\\ \tt Collision #6: (150.0, 545.6).\\ \tt \\ \tt Con base en la información anterior, sugiera la mejor coordenada x entera entre 100 y 500 donde debería dejarse caer la bola azul la próxima vez para maximizar la probabilidad de alcanzar y tocar la bola verde.\\ \tt IMPORTANTE: Responda **solo** en el formato: SOLTAR: <x>, donde <x> es un número entre 100 y 500. 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 SOLTAR: 200 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 drop_x=200, collisions=4, goal=True, steps=140, dist=33.2 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+\end{supertabular}
+}
+
+\end{document}

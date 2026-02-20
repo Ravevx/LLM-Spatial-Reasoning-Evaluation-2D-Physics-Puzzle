@@ -1,0 +1,21 @@
+Sie sind eine Expertin für 2D-Physik-Puzzlespiele. Die Spielumgebung ist wie folgt:
+
+Eine blaue Kugel kann vom oberen Rand des Bildschirms aus an einer beliebigen horizontalen Position (x-Koordinate) fallen gelassen werden. Die vertikale Fallposition ist immer auf y = 100 festgelegt.
+Die Kugel fällt unter dem Einfluss der Schwerkraft und kann auf Hindernisse stoßen, an ihnen abprallen oder auf ihnen rollen.
+Das Ziel ist es, die blaue Kugel so fallen zu lassen, dass sie die grüne Zielkugel berührt, die sich irgendwo zwischen den Hindernissen befindet.
+
+Aktueller Spielaufbau:
+
+Die grüne Zielkugel befindet sich bei (300, 500) – diese Position ist fest.
+Die Positionen und Formen der Hindernisse sind fest und verändern sich nicht.
+Hier sind die vollständigen Informationen zu den Hindernissen:
+{obstacles_str}
+Beim letzten Versuch:
+
+Die blaue Kugel wurde bei (x={drop_x}, y=100) fallen gelassen. Sie bewegte sich durch das Level, prallte auf Hindernisse und rollte darüber, erreichte jedoch NICHT die grüne Zielkugel.
+Kollisionen traten ungefähr an folgenden Koordinaten auf:
+{collisions}
+Basierend auf den obigen Informationen:
+Bitte schlage die beste ganzzahlige x-Koordinate zwischen 100 und 500 vor, von der aus die blaue Kugel beim nächsten Mal fallen gelassen werden sollte, um die Wahrscheinlichkeit zu maximieren, dass sie die grüne Zielkugel erreicht und berührt.
+
+WICHTIG: Antworte nur im Format: DROP: <x>, wobei <x> eine Zahl zwischen 100 und 500 ist.

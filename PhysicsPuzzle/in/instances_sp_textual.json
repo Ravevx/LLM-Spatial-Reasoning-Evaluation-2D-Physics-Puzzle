@@ -1,0 +1,499 @@
+{
+  "experiments": [
+    {
+      "name": "level_1",
+      "config": {
+        "width": 600,
+        "height": 600,
+        "fps": 60,
+        "regex": "s*(\\d{3})|\b(\\d{3})\b",
+        "max_turns": 2,
+        "mode": "textual",
+        "initial_prompt": "Eres un experto en juegos de puzles de física 2D. El entorno del juego es el siguiente:\n\nHay una bola azul que se puede dejar caer desde el borde superior de la pantalla en cualquier posición horizontal (coordenada x). La posición de caída vertical siempre está fija en y = 100.\nLa bola cae por gravedad y puede rodar o rebotar en los obstáculos colocados a lo largo del nivel.\nEl objetivo es que la bola azul alcance y toque una bola objetivo verde ubicada entre los obstáculos.\nLos obstáculos pueden ser paredes, rampas u otras formas físicas que afecten el movimiento de la bola.\n\nEsta es la configuración actual del juego:\n1. La bola objetivo verde se encuentra en (300,500), una posición fija.\n2. Las posiciones y formas de los obstáculos son fijas y no cambian. 3. Aquí está la información completa de los obstáculos para este nivel:\n{obstacles_str}\n\nCon base en esta descripción del juego y la configuración del entorno, sugiera la mejor coordenada x entera entre 100 y 500 para lanzar la bola azul, de modo que tenga la mayor probabilidad de alcanzar la bola verde.\nIMPORTANTE: Responda **solo** en el formato: SOLTAR: <x>, donde <x> es un número entre 100 y 500.",
+        "refined_prompt": "Eres un experto en juegos de puzles de física 2D. El entorno del juego es el siguiente:\n\nHay una bola azul que se puede dejar caer desde el borde superior de la pantalla en cualquier posición horizontal (coordenada x). La posición de caída vertical siempre está fija en y = 100.\nLa bola cae por gravedad y puede rodar o rebotar en los obstáculos colocados a lo largo del nivel.\nEl objetivo es que la bola azul alcance y toque una bola objetivo verde ubicada entre los obstáculos.\nLos obstáculos pueden ser paredes, rampas u otras formas físicas que afectan el movimiento de la bola.\n\nEsta es la configuración actual del juego:\n1. La bola objetivo verde se encuentra en (300,500), una posición fija.\n2. Las posiciones y formas de los obstáculos son fijas y permanecen invariables. 3. Aquí está la información completa de los obstáculos para este nivel:\n{obstacles_str}\n\nEn el último intento:\n1. La bola azul se dejó caer desde la posición (x={drop_x}, y=100). La bola se movió por el nivel, rebotando y rodando sobre los obstáculos, pero NO alcanzó ni tocó la bola verde objetivo.\n2. Las colisiones ocurrieron en estas coordenadas aproximadas:\n{collisions}.\n\nCon base en la información anterior, sugiera la mejor coordenada x entera entre 100 y 500 donde debería dejarse caer la bola azul la próxima vez para maximizar la probabilidad de alcanzar y tocar la bola verde.\nIMPORTANTE: Responda **solo** en el formato: SOLTAR: <x>, donde <x> es un número entre 100 y 500."
+      },
+      "game_instances": [
+        {
+          "game_id": "L1_G1",
+          "obstacles": [
+            {
+              "obstacle_id": "wall_1",
+              "start_point": [
+                468,
+                346
+              ],
+              "end_point": [
+                132,
+                254
+              ],
+              "thickness": 5,
+              "description": "Segment with midpoint fixed at (300,300)"
+            }
+          ]
+        },
+        {
+          "game_id": "L1_G2",
+          "obstacles": [
+            {
+              "obstacle_id": "wall_1",
+              "start_point": [
+                269,
+                348
+              ],
+              "end_point": [
+                331,
+                252
+              ],
+              "thickness": 5,
+              "description": "Segment with midpoint fixed at (300,300)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "level_2",
+      "config": {
+        "width": 600,
+        "height": 600,
+        "fps": 60,
+        "regex": "s*(\\d{3})|\b(\\d{3})\b",
+        "max_turns": 2,
+        "mode": "textual",
+        "initial_prompt": "Eres un experto en juegos de puzles de física 2D. El entorno del juego es el siguiente:\n\nHay una bola azul que se puede dejar caer desde el borde superior de la pantalla en cualquier posición horizontal (coordenada x). La posición de caída vertical siempre está fija en y = 100.\nLa bola cae por gravedad y puede rodar o rebotar en los obstáculos colocados a lo largo del nivel.\nEl objetivo es que la bola azul alcance y toque una bola objetivo verde ubicada entre los obstáculos.\nLos obstáculos pueden ser paredes, rampas u otras formas físicas que afecten el movimiento de la bola.\n\nEsta es la configuración actual del juego:\n1. La bola objetivo verde se encuentra en (300,500), una posición fija.\n2. Las posiciones y formas de los obstáculos son fijas y no cambian. 3. Aquí está la información completa de los obstáculos para este nivel:\n{obstacles_str}\n\nCon base en esta descripción del juego y la configuración del entorno, sugiera la mejor coordenada x entera entre 100 y 500 para lanzar la bola azul, de modo que tenga la mayor probabilidad de alcanzar la bola verde.\nIMPORTANTE: Responda **solo** en el formato: SOLTAR: <x>, donde <x> es un número entre 100 y 500.",
+        "refined_prompt": "Eres un experto en juegos de puzles de física 2D. El entorno del juego es el siguiente:\n\nHay una bola azul que se puede dejar caer desde el borde superior de la pantalla en cualquier posición horizontal (coordenada x). La posición de caída vertical siempre está fija en y = 100.\nLa bola cae por gravedad y puede rodar o rebotar en los obstáculos colocados a lo largo del nivel.\nEl objetivo es que la bola azul alcance y toque una bola objetivo verde ubicada entre los obstáculos.\nLos obstáculos pueden ser paredes, rampas u otras formas físicas que afectan el movimiento de la bola.\n\nEsta es la configuración actual del juego:\n1. La bola objetivo verde se encuentra en (300,500), una posición fija.\n2. Las posiciones y formas de los obstáculos son fijas y permanecen invariables. 3. Aquí está la información completa de los obstáculos para este nivel:\n{obstacles_str}\n\nEn el último intento:\n1. La bola azul se dejó caer desde la posición (x={drop_x}, y=100). La bola se movió por el nivel, rebotando y rodando sobre los obstáculos, pero NO alcanzó ni tocó la bola verde objetivo.\n2. Las colisiones ocurrieron en estas coordenadas aproximadas:\n{collisions}.\n\nCon base en la información anterior, sugiera la mejor coordenada x entera entre 100 y 500 donde debería dejarse caer la bola azul la próxima vez para maximizar la probabilidad de alcanzar y tocar la bola verde.\nIMPORTANTE: Responda **solo** en el formato: SOLTAR: <x>, donde <x> es un número entre 100 y 500."
+      },
+      "game_instances": [
+        {
+          "game_id": "L2_G1",
+          "obstacles": [
+            {
+              "obstacle_id": "wall_1",
+              "start_point": [
+                356,
+                292
+              ],
+              "end_point": [
+                244,
+                308
+              ],
+              "thickness": 5,
+              "description": "Segment with midpoint fixed at (300,300)"
+            },
+            {
+              "obstacle_id": "wall_2",
+              "start_point": [
+                415,
+                213
+              ],
+              "end_point": [
+                295,
+                397
+              ],
+              "thickness": 5
+            }
+          ]
+        },
+        {
+          "game_id": "L2_G2",
+          "obstacles": [
+            {
+              "obstacle_id": "wall_1",
+              "start_point": [
+                230,
+                230
+              ],
+              "end_point": [
+                370,
+                370
+              ],
+              "thickness": 5,
+              "description": "Segment with midpoint fixed at (300,300)"
+            },
+            {
+              "obstacle_id": "wall_2",
+              "start_point": [
+                281,
+                400
+              ],
+              "end_point": [
+                346,
+                249
+              ],
+              "thickness": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "level_3",
+      "config": {
+        "width": 600,
+        "height": 600,
+        "fps": 60,
+        "regex": "s*(\\d{3})|\b(\\d{3})\b",
+        "max_turns": 2,
+        "mode": "textual",
+        "initial_prompt": "Eres un experto en juegos de puzles de física 2D. El entorno del juego es el siguiente:\n\nHay una bola azul que se puede dejar caer desde el borde superior de la pantalla en cualquier posición horizontal (coordenada x). La posición de caída vertical siempre está fija en y = 100.\nLa bola cae por gravedad y puede rodar o rebotar en los obstáculos colocados a lo largo del nivel.\nEl objetivo es que la bola azul alcance y toque una bola objetivo verde ubicada entre los obstáculos.\nLos obstáculos pueden ser paredes, rampas u otras formas físicas que afecten el movimiento de la bola.\n\nEsta es la configuración actual del juego:\n1. La bola objetivo verde se encuentra en (300,500), una posición fija.\n2. Las posiciones y formas de los obstáculos son fijas y no cambian. 3. Aquí está la información completa de los obstáculos para este nivel:\n{obstacles_str}\n\nCon base en esta descripción del juego y la configuración del entorno, sugiera la mejor coordenada x entera entre 100 y 500 para lanzar la bola azul, de modo que tenga la mayor probabilidad de alcanzar la bola verde.\nIMPORTANTE: Responda **solo** en el formato: SOLTAR: <x>, donde <x> es un número entre 100 y 500.",
+        "refined_prompt": "Eres un experto en juegos de puzles de física 2D. El entorno del juego es el siguiente:\n\nHay una bola azul que se puede dejar caer desde el borde superior de la pantalla en cualquier posición horizontal (coordenada x). La posición de caída vertical siempre está fija en y = 100.\nLa bola cae por gravedad y puede rodar o rebotar en los obstáculos colocados a lo largo del nivel.\nEl objetivo es que la bola azul alcance y toque una bola objetivo verde ubicada entre los obstáculos.\nLos obstáculos pueden ser paredes, rampas u otras formas físicas que afectan el movimiento de la bola.\n\nEsta es la configuración actual del juego:\n1. La bola objetivo verde se encuentra en (300,500), una posición fija.\n2. Las posiciones y formas de los obstáculos son fijas y permanecen invariables. 3. Aquí está la información completa de los obstáculos para este nivel:\n{obstacles_str}\n\nEn el último intento:\n1. La bola azul se dejó caer desde la posición (x={drop_x}, y=100). La bola se movió por el nivel, rebotando y rodando sobre los obstáculos, pero NO alcanzó ni tocó la bola verde objetivo.\n2. Las colisiones ocurrieron en estas coordenadas aproximadas:\n{collisions}.\n\nCon base en la información anterior, sugiera la mejor coordenada x entera entre 100 y 500 donde debería dejarse caer la bola azul la próxima vez para maximizar la probabilidad de alcanzar y tocar la bola verde.\nIMPORTANTE: Responda **solo** en el formato: SOLTAR: <x>, donde <x> es un número entre 100 y 500."
+      },
+      "game_instances": [
+        {
+          "game_id": "L3_G1",
+          "obstacles": [
+            {
+              "obstacle_id": "wall_1",
+              "start_point": [
+                344,
+                358
+              ],
+              "end_point": [
+                256,
+                242
+              ],
+              "thickness": 5,
+              "description": "Segment with midpoint fixed at (300,300)"
+            },
+            {
+              "obstacle_id": "wall_2",
+              "start_point": [
+                495,
+                245
+              ],
+              "end_point": [
+                182,
+                374
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_3",
+              "start_point": [
+                453,
+                245
+              ],
+              "end_point": [
+                312,
+                356
+              ],
+              "thickness": 5
+            }
+          ]
+        },
+        {
+          "game_id": "L3_G2",
+          "obstacles": [
+            {
+              "obstacle_id": "wall_1",
+              "start_point": [
+                464,
+                269
+              ],
+              "end_point": [
+                136,
+                331
+              ],
+              "thickness": 5,
+              "description": "Segment with midpoint fixed at (300,300)"
+            },
+            {
+              "obstacle_id": "wall_2",
+              "start_point": [
+                318,
+                201
+              ],
+              "end_point": [
+                218,
+                281
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_3",
+              "start_point": [
+                235,
+                386
+              ],
+              "end_point": [
+                303,
+                290
+              ],
+              "thickness": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "level_4",
+      "config": {
+        "width": 600,
+        "height": 600,
+        "fps": 60,
+        "regex": "s*(\\d{3})|\b(\\d{3})\b",
+        "max_turns": 2,
+        "mode": "textual",
+        "initial_prompt": "Eres un experto en juegos de puzles de física 2D. El entorno del juego es el siguiente:\n\nHay una bola azul que se puede dejar caer desde el borde superior de la pantalla en cualquier posición horizontal (coordenada x). La posición de caída vertical siempre está fija en y = 100.\nLa bola cae por gravedad y puede rodar o rebotar en los obstáculos colocados a lo largo del nivel.\nEl objetivo es que la bola azul alcance y toque una bola objetivo verde ubicada entre los obstáculos.\nLos obstáculos pueden ser paredes, rampas u otras formas físicas que afecten el movimiento de la bola.\n\nEsta es la configuración actual del juego:\n1. La bola objetivo verde se encuentra en (300,500), una posición fija.\n2. Las posiciones y formas de los obstáculos son fijas y no cambian. 3. Aquí está la información completa de los obstáculos para este nivel:\n{obstacles_str}\n\nCon base en esta descripción del juego y la configuración del entorno, sugiera la mejor coordenada x entera entre 100 y 500 para lanzar la bola azul, de modo que tenga la mayor probabilidad de alcanzar la bola verde.\nIMPORTANTE: Responda **solo** en el formato: SOLTAR: <x>, donde <x> es un número entre 100 y 500.",
+        "refined_prompt": "Eres un experto en juegos de puzles de física 2D. El entorno del juego es el siguiente:\n\nHay una bola azul que se puede dejar caer desde el borde superior de la pantalla en cualquier posición horizontal (coordenada x). La posición de caída vertical siempre está fija en y = 100.\nLa bola cae por gravedad y puede rodar o rebotar en los obstáculos colocados a lo largo del nivel.\nEl objetivo es que la bola azul alcance y toque una bola objetivo verde ubicada entre los obstáculos.\nLos obstáculos pueden ser paredes, rampas u otras formas físicas que afectan el movimiento de la bola.\n\nEsta es la configuración actual del juego:\n1. La bola objetivo verde se encuentra en (300,500), una posición fija.\n2. Las posiciones y formas de los obstáculos son fijas y permanecen invariables. 3. Aquí está la información completa de los obstáculos para este nivel:\n{obstacles_str}\n\nEn el último intento:\n1. La bola azul se dejó caer desde la posición (x={drop_x}, y=100). La bola se movió por el nivel, rebotando y rodando sobre los obstáculos, pero NO alcanzó ni tocó la bola verde objetivo.\n2. Las colisiones ocurrieron en estas coordenadas aproximadas:\n{collisions}.\n\nCon base en la información anterior, sugiera la mejor coordenada x entera entre 100 y 500 donde debería dejarse caer la bola azul la próxima vez para maximizar la probabilidad de alcanzar y tocar la bola verde.\nIMPORTANTE: Responda **solo** en el formato: SOLTAR: <x>, donde <x> es un número entre 100 y 500."
+      },
+      "game_instances": [
+        {
+          "game_id": "L4_G1",
+          "obstacles": [
+            {
+              "obstacle_id": "wall_1",
+              "start_point": [
+                170,
+                340
+              ],
+              "end_point": [
+                430,
+                260
+              ],
+              "thickness": 5,
+              "description": "Segment with midpoint fixed at (300,300)"
+            },
+            {
+              "obstacle_id": "wall_2",
+              "start_point": [
+                242,
+                318
+              ],
+              "end_point": [
+                287,
+                152
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_3",
+              "start_point": [
+                226,
+                384
+              ],
+              "end_point": [
+                271,
+                155
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_4",
+              "start_point": [
+                409,
+                239
+              ],
+              "end_point": [
+                397,
+                175
+              ],
+              "thickness": 5
+            }
+          ]
+        },
+        {
+          "game_id": "L4_G2",
+          "obstacles": [
+            {
+              "obstacle_id": "wall_1",
+              "start_point": [
+                209,
+                209
+              ],
+              "end_point": [
+                391,
+                391
+              ],
+              "thickness": 5,
+              "description": "Segment with midpoint fixed at (300,300)"
+            },
+            {
+              "obstacle_id": "wall_2",
+              "start_point": [
+                217,
+                253
+              ],
+              "end_point": [
+                101,
+                226
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_3",
+              "start_point": [
+                441,
+                242
+              ],
+              "end_point": [
+                218,
+                259
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_4",
+              "start_point": [
+                379,
+                294
+              ],
+              "end_point": [
+                171,
+                291
+              ],
+              "thickness": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "level_5",
+      "config": {
+        "width": 600,
+        "height": 600,
+        "fps": 60,
+        "regex": "s*(\\d{3})|\b(\\d{3})\b",
+        "max_turns": 2,
+        "mode": "textual",
+        "initial_prompt": "Eres un experto en juegos de puzles de física 2D. El entorno del juego es el siguiente:\n\nHay una bola azul que se puede dejar caer desde el borde superior de la pantalla en cualquier posición horizontal (coordenada x). La posición de caída vertical siempre está fija en y = 100.\nLa bola cae por gravedad y puede rodar o rebotar en los obstáculos colocados a lo largo del nivel.\nEl objetivo es que la bola azul alcance y toque una bola objetivo verde ubicada entre los obstáculos.\nLos obstáculos pueden ser paredes, rampas u otras formas físicas que afecten el movimiento de la bola.\n\nEsta es la configuración actual del juego:\n1. La bola objetivo verde se encuentra en (300,500), una posición fija.\n2. Las posiciones y formas de los obstáculos son fijas y no cambian. 3. Aquí está la información completa de los obstáculos para este nivel:\n{obstacles_str}\n\nCon base en esta descripción del juego y la configuración del entorno, sugiera la mejor coordenada x entera entre 100 y 500 para lanzar la bola azul, de modo que tenga la mayor probabilidad de alcanzar la bola verde.\nIMPORTANTE: Responda **solo** en el formato: SOLTAR: <x>, donde <x> es un número entre 100 y 500.",
+        "refined_prompt": "Eres un experto en juegos de puzles de física 2D. El entorno del juego es el siguiente:\n\nHay una bola azul que se puede dejar caer desde el borde superior de la pantalla en cualquier posición horizontal (coordenada x). La posición de caída vertical siempre está fija en y = 100.\nLa bola cae por gravedad y puede rodar o rebotar en los obstáculos colocados a lo largo del nivel.\nEl objetivo es que la bola azul alcance y toque una bola objetivo verde ubicada entre los obstáculos.\nLos obstáculos pueden ser paredes, rampas u otras formas físicas que afectan el movimiento de la bola.\n\nEsta es la configuración actual del juego:\n1. La bola objetivo verde se encuentra en (300,500), una posición fija.\n2. Las posiciones y formas de los obstáculos son fijas y permanecen invariables. 3. Aquí está la información completa de los obstáculos para este nivel:\n{obstacles_str}\n\nEn el último intento:\n1. La bola azul se dejó caer desde la posición (x={drop_x}, y=100). La bola se movió por el nivel, rebotando y rodando sobre los obstáculos, pero NO alcanzó ni tocó la bola verde objetivo.\n2. Las colisiones ocurrieron en estas coordenadas aproximadas:\n{collisions}.\n\nCon base en la información anterior, sugiera la mejor coordenada x entera entre 100 y 500 donde debería dejarse caer la bola azul la próxima vez para maximizar la probabilidad de alcanzar y tocar la bola verde.\nIMPORTANTE: Responda **solo** en el formato: SOLTAR: <x>, donde <x> es un número entre 100 y 500."
+      },
+      "game_instances": [
+        {
+          "game_id": "L5_G1",
+          "obstacles": [
+            {
+              "obstacle_id": "wall_1",
+              "start_point": [
+                265,
+                292
+              ],
+              "end_point": [
+                335,
+                308
+              ],
+              "thickness": 5,
+              "description": "Segment with midpoint fixed at (300,300)"
+            },
+            {
+              "obstacle_id": "wall_2",
+              "start_point": [
+                308,
+                154
+              ],
+              "end_point": [
+                295,
+                393
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_3",
+              "start_point": [
+                389,
+                172
+              ],
+              "end_point": [
+                330,
+                246
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_4",
+              "start_point": [
+                158,
+                353
+              ],
+              "end_point": [
+                218,
+                365
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_5",
+              "start_point": [
+                129,
+                313
+              ],
+              "end_point": [
+                187,
+                368
+              ],
+              "thickness": 5
+            }
+          ]
+        },
+        {
+          "game_id": "L5_G2",
+          "obstacles": [
+            {
+              "obstacle_id": "wall_1",
+              "start_point": [
+                355,
+                376
+              ],
+              "end_point": [
+                245,
+                224
+              ],
+              "thickness": 5,
+              "description": "Segment with midpoint fixed at (300,300)"
+            },
+            {
+              "obstacle_id": "wall_2",
+              "start_point": [
+                426,
+                320
+              ],
+              "end_point": [
+                282,
+                381
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_3",
+              "start_point": [
+                428,
+                222
+              ],
+              "end_point": [
+                455,
+                229
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_4",
+              "start_point": [
+                190,
+                196
+              ],
+              "end_point": [
+                225,
+                280
+              ],
+              "thickness": 5
+            },
+            {
+              "obstacle_id": "wall_5",
+              "start_point": [
+                320,
+                372
+              ],
+              "end_point": [
+                363,
+                169
+              ],
+              "thickness": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

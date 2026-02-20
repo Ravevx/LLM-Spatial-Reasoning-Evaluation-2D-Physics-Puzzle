@@ -1,0 +1,60 @@
+[
+{
+  "game_name": "en_mm_Physics-Puzzle",
+  "description": "The physics puzzle game by the Puzzle Crew",
+  "main_game": "puzzle_game",
+  "instances": "instances_en_mm",
+  "players": "1",
+  "image": "multi",
+  "languages": ["en"],
+  "benchmark": []
+},
+{
+  "game_name": "de_mm_Physics-Puzzle",
+  "description": "The physics puzzle game by the Puzzle Crew",
+  "main_game": "puzzle_game",
+  "instances": "instances_de_mm",
+  "players": "1",
+  "image": "multi",
+  "languages": ["de"],
+  "benchmark": []
+},
+{
+  "game_name": "en_textual_Physics-Puzzle",
+  "description": "The physics puzzle game by the Puzzle Crew",
+  "main_game": "puzzle_game",
+  "instances": "instances_en_textual",
+  "players": "1",
+  "image": "None",
+  "languages": ["en"],
+  "benchmark": []
+},
+{
+  "game_name": "de_textual_Physics-Puzzle",
+  "description": "The physics puzzle game by the Puzzle Crew",
+  "main_game": "puzzle_game",
+  "instances": "instances_de_textual",
+  "players": "1",
+  "image": "None",
+  "languages": ["de"],
+  "benchmark": []
+},
+{
+    "game_name": "sp_mm_Physics-Puzzle",
+    "description": "The physics puzzle game by the Puzzle Crew",
+    "main_game": "puzzle_game",
+    "instances": "instances_sp_mm",
+    "players": "1",
+    "image": "multi",
+    "languages": ["sp"]
+  },
+  {
+    "game_name": "sp_textual_Physics-Puzzle",
+    "description": "The physics puzzle game by the Puzzle Crew",
+    "main_game": "puzzle_game",
+    "instances": "instances_sp_textual",
+    "players": "1",
+    "image": "None",
+    "languages": ["sp"]
+  }
+]
