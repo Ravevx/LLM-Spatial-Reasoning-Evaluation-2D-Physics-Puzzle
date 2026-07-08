@@ -1,3 +1,6 @@
+#check and update the resources/initial prompts and refined prompts as you want for the agent to work.
+#currently available in english,spanish,german ( initial /refined) for each ( first attempt and failed attempt)
+
 from __future__ import annotations
 import io
 import json
