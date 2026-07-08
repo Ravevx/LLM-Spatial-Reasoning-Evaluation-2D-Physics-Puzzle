@@ -1,3 +1,4 @@
+#add/change instance's difficulty and number here, based on the way you want to test.
 import json
 import os
 import math
